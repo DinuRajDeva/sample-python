@@ -3,7 +3,6 @@ kind: Component
 metadata:
   name: python-app
   description: An example of a Backstage application.
-  # Example for optional annotations
   annotations:
     github.com/project-slug: DinuRajDeva/sample-python
 spec:
