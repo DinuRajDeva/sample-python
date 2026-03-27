@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app
+  description: An example of a Backstage application.
+  # Example for optional annotations
+   annotations:
+     github.com/project-slug: DinuRajDeva/sample-python
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: dinu@example.com
+  lifecycle: experimental
